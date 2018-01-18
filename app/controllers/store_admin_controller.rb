@@ -7,11 +7,11 @@ class StoreAdminController < ApplicaitonController
 
   def orders
 
-    render layout: 'admin'
+    render layout: 'order_administrationadmin'
   end
 
   def invoice
 
-    render layout: 'admin'
+    
   end
 end
