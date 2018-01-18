@@ -2,14 +2,16 @@ class StoreAdminController < ApplicaitonController
   layout "admin"
   
   def home
-    render layout: 'admin'
+    
   end
 
   def orders
 
+    render layout: 'admin'
   end
 
   def invoice
 
+    render layout: 'admin'
   end
 end
