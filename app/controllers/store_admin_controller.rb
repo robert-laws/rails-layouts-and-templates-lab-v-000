@@ -1,8 +1,8 @@
 class StoreAdminController < ApplicaitonController
   layout "admin"
-  
+
   def home
-    
+
   end
 
   def orders
@@ -12,6 +12,6 @@ class StoreAdminController < ApplicaitonController
 
   def invoice
 
-    
+    render layout: false
   end
 end
